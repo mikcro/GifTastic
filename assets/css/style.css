@@ -1,0 +1,63 @@
+body {
+	background: url(../images/sea.jpg) center center fixed;
+	background-size: 100% 100%;
+	font-family: 'Mr Bedford';
+}
+
+
+* {
+	box-sizing: border-box;
+
+}
+
+.btn {
+	margin: 10px;
+	font-size: 18px;
+	opacity: .6;
+	background-color: #130670;
+	border-color: #ff05fa;
+}
+
+.jumbotron {
+	color: #ff05fa;
+	margin-bottom: auto;
+	padding-bottom: 20px;
+	padding-top: 25px;
+	margin-right: 10%;
+	margin-left: 10%;
+	text-align: center;
+	opacity: .3;
+	/*background-color: #2395c6;*/
+	margin: 0 auto;
+}
+
+
+label {
+	color: white;
+	background-color: #d8480f;
+	opacity: .7;
+	font-size: 35px;
+	margin-right: 10px;
+}
+
+p {
+	color: red;
+	font-size: 16px;
+}
+
+audio {
+	display: none;
+}
+
+.div1 {
+	display: inline-block;
+	float: left;
+	margin: 30px;
+}
+
+#topicInput {
+	color: white;
+	font-size: 18px;
+	opacity: .5;
+	background-color: #ad226e;
+}
