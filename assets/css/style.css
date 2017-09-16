@@ -1,7 +1,7 @@
 body {
 	background: url(../images/sea.jpg) center center fixed;
 	background-size: 100% 100%;
-	font-family: 'Mr Bedford';
+	font-family: 'https://fonts.google.com/specimen/Princess+Sofia?selection.family=Princess+Sofia';
 }
 
 
@@ -38,6 +38,7 @@ label {
 	opacity: .7;
 	font-size: 35px;
 	margin-right: 10px;
+	align-content: center;
 }
 
 p {

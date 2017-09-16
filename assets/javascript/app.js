@@ -22,15 +22,25 @@ function displayGifButtons() {
 function addNewButton() {
 	$("#addGif").on("click", function() {
 		var movie = $("#topicInput").val().trim();
+		console.log("newMovieAdded",movie)
+		var a = pixar.indexOf(movie);
+		console.log("a",a);
+		if(a >= 0){
+		console.log("insideIf")	
+		// alert("You Got it!");
+		}else{
+			console.log("insideElse")
+		alert("Sorry...Either you mispelled the title or that one wasnt produced by Pixar");
+		}
 		if (movie == ""){
 			return false;//no blank buttons
 		}
 		topic.push(movie);
-
+		$("#topicInput").val().trim();
 		displayGifButtons();
 		return false;
 		});
-}
+}		
 
 //function to remove last button
 function removeLastButton() {
